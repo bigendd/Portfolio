@@ -1,6 +1,6 @@
-package portfolio.repository;
+package com.amarbelaifa.portfolio.repository;
 
-import portfolio.model.Project;
+import com.amarbelaifa.portfolio.model.Project;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

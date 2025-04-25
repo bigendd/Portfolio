@@ -1,4 +1,5 @@
-package portfolio.model;
+package com.amarbelaifa.portfolio.model;
+
 import java.util.List;
 
 import jakarta.persistence.*;

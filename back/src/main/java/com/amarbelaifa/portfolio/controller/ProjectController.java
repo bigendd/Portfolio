@@ -1,14 +1,13 @@
-package portfolio.Controller;
+package com.amarbelaifa.portfolio.controller;
 
-import portfolio.model.Project;
-import portfolio.service.ProjectService;
+import com.amarbelaifa.portfolio.model.Project;
+import com.amarbelaifa.portfolio.service.ProjectService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-//super impoertant pour le CORS 3000 port de react
 @CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping("/api/projects")
 public class ProjectController {

@@ -1,7 +1,7 @@
-package portfolio.service;
+package com.amarbelaifa.portfolio.service;
 
-import portfolio.model.Project;
-import portfolio.repository.ProjectRepository;
+import com.amarbelaifa.portfolio.model.Project;
+import com.amarbelaifa.portfolio.repository.ProjectRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
